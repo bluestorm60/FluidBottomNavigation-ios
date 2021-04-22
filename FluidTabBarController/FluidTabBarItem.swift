@@ -36,6 +36,10 @@ open class FluidTabBarItem: UITabBarItem {
         didSet { self.contentView.title = title }
     }
 
+    open var titleFont: UIFont? {
+        didSet { self.contentView.titleFont = titleFont }
+    }
+
     open var textColor: UIColor {
         get { return contentView.textColor }
         set { contentView.textColor = newValue }
