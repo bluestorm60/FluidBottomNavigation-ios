@@ -55,9 +55,9 @@
 		0F8D86766A77DDF1CFFDB50E0C2191B4 /* CurveLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CurveLayer.swift; sourceTree = "<group>"; };
 		119FBF08464A264BE49A050F1A75FE86 /* Pods-FluidTabBarController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FluidTabBarController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		23EC30CF5C00FE768A00B9DA45DA8E84 /* FluidTabBarController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FluidTabBarController.xcconfig; sourceTree = "<group>"; };
-		25680C716B10497C3D1C7985E3D872F9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		25680C716B10497C3D1C7985E3D872F9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		2A93D92FAEBA146FD999F188CF62A18B /* FluidTabBarItemAnimatorDefault.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FluidTabBarItemAnimatorDefault.swift; sourceTree = "<group>"; };
-		3238989CCF4729E455BC6D4F57F583DD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3238989CCF4729E455BC6D4F57F583DD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		32B2E845BFF1C9ACE7C73E361F3492E8 /* FluidTabBarController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FluidTabBarController-dummy.m"; sourceTree = "<group>"; };
 		3AEE5C1134B81A075B6695F7730679EB /* StretchyCircleLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StretchyCircleLayer.swift; sourceTree = "<group>"; };
 		454651873D2525924464CF5A3E48F7F1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -66,7 +66,7 @@
 		4A73298F292EC288D3238246BC536EE0 /* Pods-FluidTabBarController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FluidTabBarController_Tests.modulemap"; sourceTree = "<group>"; };
 		5978C9708CA706E4217E6613A241E69F /* ContainerAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContainerAnimator.swift; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5C6ED937BA200BD65DC30AA805EBD7AD /* FluidTabBarController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = FluidTabBarController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5C6ED937BA200BD65DC30AA805EBD7AD /* FluidTabBarController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = FluidTabBarController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6EE2C5EB2592816E4297A088E84B4202 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		745D436053872E68358596D3ABCAF94A /* Pods-FluidTabBarController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FluidTabBarController_Example-umbrella.h"; sourceTree = "<group>"; };
 		7B3DDB0A6D32177D723489375765CC98 /* Pods-FluidTabBarController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FluidTabBarController_Example.modulemap"; sourceTree = "<group>"; };
@@ -75,9 +75,9 @@
 		7F9C67E5593E3E88EA5B9ED204660720 /* Pods-FluidTabBarController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FluidTabBarController_Tests-resources.sh"; sourceTree = "<group>"; };
 		837052763325C201E31A33FC0DDCA725 /* Pods-FluidTabBarController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FluidTabBarController_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		8E091F81614D27D3387A5D5334D933D7 /* Pods-FluidTabBarController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FluidTabBarController_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		8E331568F170C269FA2EBD5CA12F825C /* Pods_FluidTabBarController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FluidTabBarController_Tests.framework; path = "Pods-FluidTabBarController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E331568F170C269FA2EBD5CA12F825C /* Pods_FluidTabBarController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FluidTabBarController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		920C452635DBEA76C048B3F5A779DA1E /* Pods-FluidTabBarController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FluidTabBarController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		96226C8997E8C01C0D013AA0AA1CFC01 /* FluidTabBarController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FluidTabBarController.modulemap; sourceTree = "<group>"; };
 		9EB5D8424915CE83EE79BE34AB1BE5A2 /* FluidTabBarItemContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FluidTabBarItemContentView.swift; path = FluidTabBarController/FluidTabBarItemContentView.swift; sourceTree = "<group>"; };
 		A3E5A513BAC50BEE8ECF25277C566FBA /* Pods-FluidTabBarController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FluidTabBarController_Example-dummy.m"; sourceTree = "<group>"; };
@@ -92,8 +92,8 @@
 		E597C67D6B6B6746B1E81EFE90DC3024 /* TimingFunctions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TimingFunctions.swift; sourceTree = "<group>"; };
 		EC0DC020A93E53CE5184EA00DE7D3B92 /* FluidTabBar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FluidTabBar.swift; path = FluidTabBarController/FluidTabBar.swift; sourceTree = "<group>"; };
 		EE59ADB778DE88993D177A1BB7117829 /* Pods-FluidTabBarController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FluidTabBarController_Example-frameworks.sh"; sourceTree = "<group>"; };
-		EEBE573934CAD9CF73F1050ADFDF2D6D /* Pods_FluidTabBarController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FluidTabBarController_Example.framework; path = "Pods-FluidTabBarController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EF0CCD4F1AF8CD7B1AC2232F9EC92B29 /* FluidTabBarController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FluidTabBarController.framework; path = FluidTabBarController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEBE573934CAD9CF73F1050ADFDF2D6D /* Pods_FluidTabBarController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FluidTabBarController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF0CCD4F1AF8CD7B1AC2232F9EC92B29 /* FluidTabBarController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FluidTabBarController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1B9183D9D4DDF97A270BE916C15F262 /* LabelAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LabelAnimator.swift; sourceTree = "<group>"; };
 		F9948198FE5043DF6B34220C9EDA916A /* Pods-FluidTabBarController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FluidTabBarController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		FF0B8D429785E514EAEB10DAFB2982A1 /* IconAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IconAnimator.swift; sourceTree = "<group>"; };
@@ -151,7 +151,6 @@
 				0F8D86766A77DDF1CFFDB50E0C2191B4 /* CurveLayer.swift */,
 				3AEE5C1134B81A075B6695F7730679EB /* StretchyCircleLayer.swift */,
 			);
-			name = Layers;
 			path = Layers;
 			sourceTree = "<group>";
 		};
@@ -381,6 +380,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;

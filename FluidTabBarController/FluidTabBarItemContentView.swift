@@ -46,7 +46,7 @@ open class FluidTabBarItemContentView: UIView {
     open var highlightEnabled = true
 
     /// Icon imageView renderingMode, default is .alwaysTemplate like UITabBarItem
-    open var renderingMode: UIImageRenderingMode = .alwaysTemplate {
+    open var renderingMode: UIImageRenderingMode = .alwaysOriginal {
         didSet {
             self.updateDisplay()
         }
@@ -76,6 +76,12 @@ open class FluidTabBarItemContentView: UIView {
         didSet {
             self.titleLabel.text = title
             self.updateLayout()
+        }
+    }
+
+    open var titleFont: UIFont? {
+        didSet {
+            self.titleLabel.font = titleFont
         }
     }
 
@@ -118,6 +124,7 @@ open class FluidTabBarItemContentView: UIView {
     open var imageView: UIImageView = {
         let imageView = UIImageView(frame: .zero)
         imageView.backgroundColor = .clear
+        imageView.contentMode = .scaleAspectFit
         return imageView
     }()
 
@@ -180,7 +187,7 @@ open class FluidTabBarItemContentView: UIView {
         }
 
         if !imageView.isHidden && !titleLabel.isHidden {
-            titleLabel.font = UIFont.systemFont(ofSize: fontSize)
+            titleLabel.font = titleFont != nil ? titleFont : UIFont.systemFont(ofSize: fontSize)
             titleLabel.sizeToFit()
             if #available(iOS 11.0, *), isWide {
                 titleLabel.frame = CGRect(
