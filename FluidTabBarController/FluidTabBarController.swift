@@ -102,6 +102,7 @@ open class FluidTabBarController: UITabBarController {
             selectedIndex = idx
             delegate?.tabBarController?(self, didSelect: vc)
         }
+        NotificationCenter.default.post(name: NSNotification.Name(rawValue: "didSelectTabbar"), object: nil, userInfo: ["selectedIndex":selectedIndex])
     }
 
     open override func setViewControllers(_ viewControllers: [UIViewController]?, animated: Bool) {
